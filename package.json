@@ -20,5 +20,7 @@
   },
   "homepage": "https://github.com/bskyb-commerce/ember-cli-masthead-injector",
   "dependencies": {
+    "broccoli-string-replace": "0.0.2",
+    "httpsync": "0.0.8"
   }
 }
