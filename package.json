@@ -1,5 +1,6 @@
 {
- "version": "0.0.0",
+  "name": "ember-cli-masthead-injector",
+  "version": "0.0.0",
   "description": "sky masthead/footer injector",
   "ember-addon-main": "lib/ember-cli-masthead-injector.js",
   "scripts": {
@@ -9,7 +10,9 @@
     "type": "git",
     "url": "git://github.com/bskyb-commerce/ember-cli-masthead-injector"
   },
-  "keywords": [],
+  "keywords": [
+    "ember-addon"
+  ],
   "author": "Helpcentre",
   "license": "MIT",
   "bugs": {
