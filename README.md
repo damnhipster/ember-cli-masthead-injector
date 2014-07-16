@@ -12,7 +12,7 @@ From within your Ember-CLI application run the following:
 
 ##Usage
 
-One or more of the following placeholders can be placed anywhere that makes sense in your `app/index.html` file.
+One or more of the following placeholders can be placed anywhere that makes sense in your `app/index.html` or 'tests/index.html' files.
 
 ###<!-- @import skycomCss -->
 
