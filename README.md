@@ -20,6 +20,17 @@ Inserts the payload from http://assets.nb.sky.com/resources/mobile-ready/12/css/
 
 Example:
 
+Setting your Masthead section, the default is help-and-support.
+You need to set this in your app under your-app/config/environment.js
+
+```js
+module.exports = function(environment) {
+  var ENV = {
+    mastheadSection: "your-masthead-section-here"
+  }
+}
+```
+
 ```html
 <head>
   <meta charset="utf-8">
@@ -66,7 +77,7 @@ Example:
 
   <div class="emberContainer"></div>
   <!-- @import skycomFooter -->
-  
+
   ...snip...
 </body
 ```
@@ -81,7 +92,7 @@ Example:
 <body>
 
   ...snip...
-  
+
   <!-- @import skycomJs -->
 
   <script>
