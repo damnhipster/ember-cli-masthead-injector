@@ -1,8 +1,10 @@
 {
   "name": "ember-cli-masthead-injector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sky masthead/footer injector",
-  "ember-addon-main": "lib/ember-cli-masthead-injector.js",
+  "ember-addon": {
+    "main": "lib/ember-cli-masthead-injector.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
