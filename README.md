@@ -93,13 +93,29 @@ Example:
 
 ##Configuration
 
-The style of the masthead can be changed to predefined styles (see [http://assets.sky.com/wiki/masthead](http://assets.sky.com/wiki/masthead)). The default configuration for the masthead is `help-and-support`. 
-You need to set this in your app under your-app/config/environment.js
+You can pass options to the masthead injector. Currently, your options must be set as follows:
 
 ```js
 module.exports = function(environment) {
   var ENV = {
-    mastheadSection: "your-masthead-section-here"
+    // set your config here...
   }
 }
+```
+
+The style of the masthead can be changed to predefined styles (see [http://assets.sky.com/wiki/masthead](http://assets.sky.com/wiki/masthead)). The default configuration for the masthead is `help-and-support`.
+You need to set this in your app under your-app/config/environment.js
+
+```js
+  {
+    mastheadSection: "your-masthead-section-here"
+  }
+```
+
+The masthead can be disabled before the express server is started up:
+
+```js
+  {
+    disableMasthead: true
+  }
 ```
